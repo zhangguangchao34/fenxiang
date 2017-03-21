@@ -1,0 +1,91 @@
+.video{
+    height: 197px;
+    width: 100%;
+}
+
+
+.p{
+    padding-left: 20px;
+    line-height: 37px ;
+}
+.tvlist{
+    background-color: #EEEEEE;
+    padding-bottom: 60px;
+}
+.tvlist>div{
+    height: 124px;
+    width: 46%;
+}
+.text-box{
+    height: 36px;
+    overflow: hidden;
+    background-color: white;
+}
+.text-p{
+    line-height: 36px;
+    text-indent: 20px;
+    font-size: 18px;
+    color: #333333;
+}
+.littlevideo{
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    margin-left: 10px;
+}
+.right{
+    margin-right: 10px;
+}
+.class{
+    margin-top: 10px;
+    padding-top: 10px;
+    line-height: 20px;
+    font-size: 15px;
+    background-color: white;
+    color: #333333;
+}
+.xia{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    left: 50%;
+    margin-left: -10px;
+    bottom: 10px;
+}
+.height{
+    height:40px ;
+    overflow: hidden;
+}
+.downBox{
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+}
+.shangye{
+    padding-top: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.shangye li{
+    border-bottom: 1px solid silver;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+}
+.shangye li img{
+    padding-left: 10px;
+    padding-right: 15px;
+    vertical-align: middle;
+    height: 17px;
+    width: 15px;
+}
+.more{
+    margin-top:6px;
+    height:15px ;
+    width: 10px;
+    float: right;
+    /*transform: rotate(-90deg);*/
+}

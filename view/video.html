@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta id="viewport" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1; user-scalable=no;">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/video.css"/>
+    <link rel="stylesheet" href="../css/video-js.min.css"/>
+    <script src="../lib/video.min.js" ></script>
+    <style>
+        .video-js .vjs-big-play-button{
+            height: 50px;
+            width: 50px;
+            margin-left: -25px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <div class="header">
+        <img class="fl" src="../images/weixin_show_logo@2x.png" alt=""/>
+        <div class="fl win">
+            <h4>赢加</h4>
+            <p>让投资近在眼前</p>
+        </div>
+        <div class="fr down">
+            <a href="download.html"><span class="downlod">下载APP</span></a>
+            <a class="fr" href="#">
+                <img class="close" src="../images/weixin_show_close@2x.png" alt=""/>
+            </a>
+        </div>
+    </div>
+    <div class="title pr">
+        <!--<img src="../images/-xinxi-jinru@2x.png" alt=""/>-->
+        <span>《如何让投资理财变得更简单》</span>
+    </div>
+</div>
+<div class="video">
+    <video style="height: 100%;width: 100%" id="really-cool-video" class="video-js vjs-default-skin vjs-big-play-centered" controls
+           preload="auto"
+           data-setup='{}'>
+        <source src="../video/dem.mp4" type='video/mp4' />
+        <source src="" type='video/webm'>
+        <source src="" type='video/ogg'>
+        <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser
+        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+</div>
+<div class="browse pdlr">
+    <p>常洪刚用简短的4分钟告诉你《如何让理财变得更简单》</p>
+    <span style="color:#999999">
+        <img src="../images/liulan@2x.png" alt="" style="margin-right: 6px"/>
+        1000+
+    </span>
+</div>
+<div class="class">
+    <div class="select">
+        <span class="speak">课程简介</span>
+        <span class="line"></span>
+        <span class="speak">主讲人</span>
+    </div>
+    <div class="pdlr text fn-hid">
+        <p style="font-size: 15px">
+            常洪刚用简短的4分钟告诉你《如何让理财变得更简单》
+            常洪刚用简短的4分钟告诉你《如何让理财变得更简单》
+            常洪刚用简短的4分钟告诉你《如何让理财变得更简单》
+            常洪刚用简短的4分钟告诉你《如何让理财变得更简单》
+        </p>
+    </div>
+    <div class="pdlr text">
+        <p>无法访问此网站无法访问此网站无法访问此网站
+            无法访问此网站无法访问此网站无法访问此网站
+            无法访问此网站无法访问此网站无法访问此网站无法访问此网站
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../lib/jquery_1.12.4.js"></script>
+<script src="../js/base.js"></script>
+<script>
+    $('.speak').bind('click',function(){
+        var index=$(this).index()/2;
+        console.log(index);
+        $('.text').addClass('fn-hid').eq(index).removeClass('fn-hid');
+
+    })
+</script>

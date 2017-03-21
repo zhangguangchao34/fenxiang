@@ -1,0 +1,66 @@
+
+
+
+.video{
+    height: 210px;
+    width: 100%;
+}
+.video>img{
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    top: 50%;
+    margin-top: -24px;
+}
+.browse{
+    margin-top: 12px;
+    color: #333333;
+    font-size: 18px;
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+.browse span{
+    color: silver;
+}
+.browse img{
+    width: 15px;
+    height: 10px;
+}
+.class .select{
+    height: 37px;
+}
+.class .select span{
+    display: inline-block;
+    font-size: 16px;
+
+}
+.class .select .speak{
+    width: 48%;
+    text-align: center;
+    line-height: 37px;
+}
+.class .select .speak:hover{
+    color: #137FD9;
+}
+.class .select .line{
+    height: 10px;
+    border: 1px solid silver;
+}
+.class .text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+
+

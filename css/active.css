@@ -1,0 +1,49 @@
+
+.page>div>img{
+    height: 188px;
+    width: 100%;
+}
+.page>div>p{
+    font-size: 17px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    color: #333333;
+}
+.list{
+    margin-top: 10px;
+    color: red;
+    padding-left: 10px;
+}
+.list img{
+    height: 18px;
+    width: 18px;
+    vertical-align:middle;
+}
+.list div{
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.list div span{
+    font-size: 15px;
+    color: #999999;
+}
+.active-introduce{
+    background-color: white;
+    margin-top: 10px;
+}
+.active-introduce h4{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    color: #333333;
+}
+.active-introduce p{
+    color: silver;
+    font-size: 12px;
+    line-height: 20px;
+}
+.active-introduce .p{
+    font-size: 15px;
+    color: #999999;
+}

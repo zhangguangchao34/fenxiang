@@ -1,0 +1,43 @@
+.page{
+
+}
+.page .title-img{
+    height: 226px;
+    background-color: red;
+    width: 100%;
+}
+.list{
+    padding-left: 10px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+.list>div{
+    line-height: 43px;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+.list-title{
+    font-size: 18px;
+    color: #333333;
+}
+.list-title img {
+    height: 16px;
+    width: 18px;
+}
+.bimg{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+.title-text{
+    padding-left: 10px;
+    font-size: 15px;
+    color: #333333;
+}
+.title-span{
+    margin-left: 13px;
+}
+.title-text-span{
+    margin-left: 8px;
+}
